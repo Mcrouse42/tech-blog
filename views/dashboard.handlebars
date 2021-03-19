@@ -1,0 +1,40 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Dashboard</h1>
+    </div>
+</div>
+{{!-- Display new post form --}}
+<div class="row justify-content-center">
+    <form class="new-post-form mb-5 col-11 col-sm-10 col-md-9 col-lg-8">
+        <div class="form-group text-center">
+            <h2>Create New Post!</h2>
+        </div>
+        <div class="form-group">
+            <label for="post-title">Title:</label>
+            <input type="text" class="form-control" id="post-title" name="post-title" />
+        </div>
+        <div class="form-group">
+            <label for="post-content">Content:</label>
+            <textarea class="form-control" id="post-content" name="post-content" rows="5"></textarea>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-success">Create!</button>
+        </div>
+    </form>
+</div>
+{{!-- Display User's posts --}}
+{{#if posts.length}}
+<section class="text-center">
+    <h2 class="mb-4">Your Posts</h2>
+    <div class="post-list row justify-content-center">
+        {{#each posts as |post|}}
+        {{> post-info post}}
+        <div class="col-11 col-sm-10 col-md-9 col-lg-8 mb-5">
+            <a href="/dashboard/edit/{{post.id}}" class="edit-link btn text-danger">Edit post</a>
+        </div>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+<script src="/javascript/add-post.js"></script>
