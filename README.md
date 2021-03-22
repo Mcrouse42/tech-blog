@@ -7,8 +7,8 @@ Tech blog
   ## Screenshot:
   <img src="https://github.com/Mcrouse42/tech-blog/blob/master/assets/Screen%20Shot%202021-03-22%20at%202.31.39%20PM%20(2).png" />
   
-  ## Website:
-  (https://sheltered-badlands-01821.herokuapp.com/)
+  ## Deployed Website:
+  https://sheltered-badlands-01821.herokuapp.com/
 
 
   
