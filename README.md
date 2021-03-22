@@ -1,13 +1,13 @@
 # Title 
 Tech blog
 
-  # Description
+  ## Description
   This is a site to keep track of your latest tech blog postings. Create an account and you can post, comment or save any of your favorite blog posts. 
   
-  Screenshot:
-  (https://github.com/Mcrouse42/tech-blog/blob/master/assets/Screen%20Shot%202021-03-22%20at%202.31.39%20PM%20(2).png)
+  ## Screenshot:
+  <img src="https://github.com/Mcrouse42/tech-blog/blob/master/assets/Screen%20Shot%202021-03-22%20at%202.31.39%20PM%20(2).png" />
   
-  Website:
+  ## Website:
   (https://sheltered-badlands-01821.herokuapp.com/)
 
 
